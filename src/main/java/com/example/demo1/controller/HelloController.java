@@ -12,9 +12,4 @@ public class HelloController {
         return "OK";
     }
 
-    @RequestMapping("/test2")
-    public String test2() {
-        return "OK2";
-    }
-
 }
