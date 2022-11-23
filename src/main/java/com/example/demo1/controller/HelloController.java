@@ -12,4 +12,14 @@ public class HelloController {
         return "OK";
     }
 
+    @RequestMapping("/test2")
+    public String test2() {
+        return "OK2";
+    }
+
+    @RequestMapping("/test3")
+    public String test3() {
+        return "OK3";
+    }
+
 }
