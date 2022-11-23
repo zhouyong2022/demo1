@@ -22,4 +22,9 @@ public class HelloController {
         return "OK3";
     }
 
+    @RequestMapping("/test4")
+    public String test4() {
+        return "OK4";
+    }
+
 }
